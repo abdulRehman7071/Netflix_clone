@@ -1,0 +1,33 @@
+nav {
+    color: white;
+    position: relative;
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    height: 25px;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    z-index: 1;
+
+
+}
+
+.nav__black {
+    background-color: rgb(0, 0, 0);
+}
+
+.nav__logo {
+    width: 80px;
+    position: fixed;
+    left: 20px;
+    object-fit: contain;
+
+}
+
+h4 {
+    position: fixed;
+    right: 20px;
+}
